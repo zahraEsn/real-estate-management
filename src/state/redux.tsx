@@ -14,12 +14,11 @@ const rootReducer = combineReducers({
 })
 
 export const makeStore = () => {
-	return configureStore({
-		reducer: rootReducer,
-		middleware: (getDefaultMiddleware) : any => {
-			getDefaultMiddleware().concat(api.middleware)
-		}
-	})
+  return configureStore({
+    reducer: rootReducer,
+    middleware: (getDefaultMiddleware) =>
+      getDefaultMiddleware().concat(api.middleware),
+  })
 }
 
 /* Redux Type */
