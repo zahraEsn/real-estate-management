@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-export const Landing = () => {
-	return (
-		<div>Landing</div>
-	)
-}
-=======
 import React from "react"
 
 const Landing = () => {
@@ -12,4 +5,3 @@ const Landing = () => {
 }
 
 export default Landing
->>>>>>> main
