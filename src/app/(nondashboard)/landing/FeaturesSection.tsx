@@ -32,7 +32,7 @@ const FeaturesSection = () => {
       <div className="max-w-4xl xl:max-w-6xl mx-auto">
         <motion.h2
           variants={itemVariant}
-          className="text-3xl font-bold text-center mb-28 w-full sm:w-2/3 mx-auto"
+          className="text-3xl font-bold text-center mb-16 w-full sm:w-2/3 mx-auto"
         >
           Quickly find the home you want using out effective search filters!
         </motion.h2>
@@ -88,7 +88,7 @@ const FeatureCard = ({
         className="w-full h-full object-contain"
         alt={title}
       />
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
+      <h3 className="text-xl font-semibold m-2">{title}</h3>
       <p className="mb-4">{description}</p>
       <Link
         href={linkHref}
